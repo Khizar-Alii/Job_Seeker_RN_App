@@ -5,9 +5,21 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ],
     "name": "React_Native_Jobs",
-    "slug": "React_Native_Jobs"
+    "slug": "React_Native_Jobs",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c6c4fbb3-806e-48e8-b433-9e6f3d677338"
+      }
+    },
+    "android": {
+      "package": "com.codewithkhizi.React_Native_Jobs"
+    }
   }
 }
